@@ -11,7 +11,7 @@ public class SimpleAppApplication {
 	
 	@GetMapping("/home")
 	public String welcome() {
-		return "welcome";
+		return "welcome to my channel you and your family";
 	}
 
 	public static void main(String[] args) {
