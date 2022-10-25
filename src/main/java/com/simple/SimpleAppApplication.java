@@ -14,6 +14,10 @@ public class SimpleAppApplication {
 		return "welcome to my channel you and your family";
 	}
 
+	@GetMapping("/home1")
+	public String welcome1() {
+		return "welcome to my channel you and your family";
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(SimpleAppApplication.class, args);
 	}
