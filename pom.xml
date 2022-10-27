@@ -8,6 +8,7 @@
 		<version>2.7.5</version>
 		 <!-- lookup parent from repository -->
 	</parent>
+	
 	<groupId>com.simple</groupId>
 	<artifactId>simpleapp</artifactId>
 	<version>0.0.1-snapshot</version>
@@ -34,7 +35,9 @@
 	</repositories>
 	<properties>
 		<java.version>17</java.version>
+    <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
 	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
